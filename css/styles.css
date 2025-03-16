@@ -47,7 +47,6 @@ a {
     display: flex;
     gap: 40px;
     padding-left: 76px;
-    padding: 24px 0;
 
 }
 
@@ -91,6 +90,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .main-nav-link:hover {
@@ -133,7 +133,7 @@ a {
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
-        max-width: 456px;
+        max-width: 496px;
 }
         
 
@@ -152,6 +152,7 @@ a {
     min-width: 169px;
     height: 56px;
     border: none;
+    margin: 0 auto;
 
 }
 
@@ -163,7 +164,6 @@ background-color: #404BBF;
 }
 
 .main-page-descr {
-    display: flex;
     padding-top: 120px;
     padding-bottom: 120px;
 
@@ -183,6 +183,7 @@ background-color: #404BBF;
     margin: -1px;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
+    clip-path: inset(100%);
     white-space: nowrap;
     border: 0;
 }
@@ -197,8 +198,8 @@ background-color: #404BBF;
     margin-bottom: 8px
 }
 
-.about-benefits{
-    width: calc((100% - 72px) / 4)
+.about-benefits {
+    flex-basis: calc((100% - 72px) / 4)
 }
 
 .about-item {
@@ -314,6 +315,7 @@ font-size: 36px;
 .main-page-footer {
     background: #2e2f42;
         /* height: 312px; */
+        padding: 100px 0;
 }
 
 .logo-footer {
@@ -331,6 +333,8 @@ font-size: 36px;
 
     color: #F4F4FD;
     padding-bottom: 16px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .descr-footer {
@@ -339,7 +343,7 @@ font-size: 36px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
-       
+        max-width: 264px;
 }
 
 address {
