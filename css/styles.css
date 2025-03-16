@@ -13,7 +13,37 @@ ul {
 a {
     text-decoration: none;
 }
+
+.container {
+    max-width: 1158px;
+    padding-left: 156px;
+    padding-right: 156px;
+    margin: 0 auto;
+
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+}
 .nav-link-menu {
+    display: flex;
+    gap: 40px;
+    padding-left: 76px;
+
+}
+
+.nav-contacts-menu {
     display: flex;
     gap: 40px;
 }
@@ -26,7 +56,9 @@ a {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        
 }
+    
 .logo-span-studio {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -76,6 +108,12 @@ a {
 
 .main-container-head {
     background: #2e2f42;
+    /* height: 600px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 120px;
 }
 
 .main-header {
@@ -84,6 +122,8 @@ a {
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        
+     
 }
 
 .main-button {
@@ -95,6 +135,13 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    border-radius: 4px;
+    width: 169px;
+    
+    /* height: 56px; */
+    
+    
+
 }
 
 .main-button:hover {
@@ -103,13 +150,26 @@ background-color: #404BBF;
 .main-button:focus {
 background-color: #404BBF;
 }
+
+.main-page-descr {
+    display: flex;
+}
+
+.main-page-descr-benefits {
+    display: flex;
+   gap: 24px;
+}
+
+
 .main-page-descr-header {
+    display: none;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
+
 
 .main-page-descr-item {
     font-weight: 500;
@@ -128,6 +188,11 @@ color: #434455;
 
 .main-page-team {
     background: #f4f4fd;
+    /* height: 732px; */
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 120px;
 }
 
 .main-team-header {
@@ -137,11 +202,19 @@ color: #434455;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2e2f42;
+        padding-top: 120px;
+        padding-bottom: 72px;
         
 }
 
 .main-page-team-descr {
         background: #ffffff;
+}
+
+.main-page-team-descr-class {
+    display: flex;
+    gap: 24px;
+    justify-content:center;
 }
 
 .team-name {
@@ -150,6 +223,9 @@ color: #434455;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 32px;
+    text-align: center;
+   
 }
 
 
@@ -159,8 +235,14 @@ color: #434455;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        padding-bottom: 32px;
+        text-align: center;
 }
 
+.main-portfolio {
+margin-top: 120px;
+margin-bottom: 120px;
+}
 
 .main-portfolio-header {
 font-size: 36px;
@@ -169,6 +251,7 @@ font-size: 36px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    padding-bottom: 72px;
 }
 
 .main-name-portfolio {
@@ -177,7 +260,19 @@ font-size: 36px;
         line-height: 1.20;
         color: #2e2f42;
         letter-spacing: 0.02em;
+        padding-left: 16px;
+        padding-top: 32px;
 
+}
+
+.main-portfolio-descr {
+/* display: flex; */
+    gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+    
 }
 
 .name-portfolio-descr {
@@ -186,10 +281,17 @@ font-size: 36px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        padding-left: 16px;
+        padding-bottom: 32px;
+       
 }
 
+.portfolio-descr{
+    border: 1px solid #e7e9fc;
+}
 .main-page-footer {
     background: #2e2f42;
+        /* height: 312px; */
 }
 
 .logo-footer {
@@ -200,11 +302,13 @@ font-size: 36px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color:#4d5ae5;
+        
             
 }
 .logo-footer .logo-footer-accent {
 
     color: #F4F4FD;
+    padding-bottom: 16px;
 }
 
 .descr-footer {
@@ -213,6 +317,7 @@ font-size: 36px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
+       
 }
 
 
