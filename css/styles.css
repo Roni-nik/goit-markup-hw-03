@@ -221,11 +221,11 @@ color: #434455;
 
 .main-page-team {
     background: #f4f4fd;
-    /* height: 732px; */
     display: flex;
     gap: 24px;
     justify-content: center;
     margin-top: 120px;
+    padding-bottom: 120px;
 }
 
 .main-team-header {
@@ -236,12 +236,14 @@ color: #434455;
         text-transform: capitalize;
         color: #2e2f42;
         padding-top: 120px;
-        padding-bottom: 72px;
+        margin-bottom: 72px;
+        
         
 }
 
 .main-page-team-descr {
         background: #ffffff;
+        border-radius: 0px 0px 4px 4px;
 }
 
 .main-page-team-descr-class {
@@ -250,14 +252,20 @@ color: #434455;
     justify-content:center;
 }
 
+.team-name-descr {
+padding-top: 32px;
+padding-bottom: 32px
+}
+
 .team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-top: 32px;
+    /* padding-top: 32px; */
     text-align: center;
+    margin-bottom: 8px;
    
 }
 
@@ -268,13 +276,13 @@ color: #434455;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        padding-bottom: 32px;
+        /* padding-bottom: 32px; */
         text-align: center;
 }
 
 .main-portfolio {
-margin-top: 120px;
-margin-bottom: 120px;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 
 .main-portfolio-header {
@@ -294,17 +302,20 @@ font-size: 36px;
         color: #2e2f42;
         letter-spacing: 0.02em;
         padding-left: 16px;
-        padding-top: 32px;
+        margin-bottom: 72px;
 
 }
 
 .main-portfolio-descr {
-/* display: flex; */
-    gap: 24px;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px
+    /* display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, auto);
+    grid-template-rows: repeat(2, auto); */
     justify-content: center;
+   
     
 }
 
@@ -314,9 +325,16 @@ font-size: 36px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        padding-left: 16px;
-        padding-bottom: 32px;
+        width: calc((100% - 48px) / 3)
        
+}
+
+.name-descr {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+margin-bottom: 8px;
+
 }
 
 .portfolio-descr{
