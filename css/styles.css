@@ -47,16 +47,19 @@ a {
 .header .container {
     display: flex;
     align-items: center;
+    height: 72px;
 }
 
 .nav-link {
     display: flex;
+    margin: 0 auto;
     align-items: center;
 }
 .nav-link-menu {
     display: flex;
     gap: 40px;
-    padding-left: 76px;
+    margin-right: 332px;
+
 
 }
 
@@ -131,7 +134,6 @@ a {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-bottom: 120px;
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -143,6 +145,7 @@ a {
         text-align: center;
         color: #fff;
         max-width: 496px;
+        margin-bottom: 48px;
 }
         
 
@@ -220,7 +223,6 @@ color: #434455;
 
 .main-page-team {
     background: #f4f4fd;
-    display: flex;
     gap: 24px;
     justify-content: center;
     padding-top: 120px;
@@ -234,7 +236,6 @@ color: #434455;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: #2e2f42;
-        padding-top: 120px;
         margin-bottom: 72px;
         
         
@@ -328,9 +329,9 @@ border-top: none;
 }
 
 .portfolio-descr{
-    border: 1px solid #e7e9fc;
     width: calc((100% - 48px) / 3);
 }
+
 .main-page-footer {
     background: #2e2f42;
         /* height: 312px; */
