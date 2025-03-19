@@ -47,7 +47,7 @@ a {
 .header .container {
     display: flex;
     align-items: center;
-    height: 72px;
+    height: auto;
 }
 
 .nav-link {
@@ -98,6 +98,7 @@ a {
 }
 
 .main-nav-link {
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
