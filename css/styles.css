@@ -52,15 +52,12 @@ a {
 
 .nav-link {
     display: flex;
-    margin: 0 auto;
+    margin-right: auto;
     align-items: center;
 }
 .nav-link-menu {
     display: flex;
     gap: 40px;
-    margin-right: 332px;
-
-
 }
 
 .nav-contacts-menu {
